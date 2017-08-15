@@ -13,7 +13,7 @@
 
 @end
 
-@interface NNDCommonServiceService : NSObject<NNDCommonServiceProtocolDelegate>
+@interface NNDCommonService : NSObject<NNDCommonServiceProtocolDelegate>
 
 @property (strong, nonatomic) id<NNDCommonServiceProtocolDelegate> delegate;
 
