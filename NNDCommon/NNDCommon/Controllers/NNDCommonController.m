@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "NNDCommonController.h"
 
+// Extension Private Members
+@interface NNDCommonController()
+
+@end
+
+
 @implementation NNDCommonController: NSObject
 
 
