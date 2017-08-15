@@ -124,6 +124,64 @@ typedef enum {
 @property (nonatomic,strong)  NSString *homeButtonUIViewModelTitleString;
 
 // ListOfVisists UIButton
+/*
+ 
+ */
+
+ 
+//UIView *nndCheckInlogoSpace;
+@property (nonatomic,assign)  CGFloat  nndCheckInlogoSpaceFrameOriginex;
+@property (nonatomic,assign)  CGFloat  nndCheckInlogoSpaceFrameOriginey;
+@property (nonatomic,assign)  CGFloat  nndCheckInlogoSpaceFrameSizeWidth;
+@property (nonatomic,assign)  CGFloat  nndCheckInlogoSpaceFrameSizeHeight;
+@property (nonatomic,strong)  UIColor  *nndCheckInlogoSpaceBackGroundColor;
+@property (nonatomic,strong)  NSString *nndCheckInlogoSpaceTitleString;
+
+
+ //UIView *nndClientDataSpace;
+@property (nonatomic,assign)  CGFloat  nndClientDataSpaceFrameOriginex;
+@property (nonatomic,assign)  CGFloat  nndClientDataSpaceFrameOriginey;
+@property (nonatomic,assign)  CGFloat  nndClientDataSpaceFrameSizeWidth;
+@property (nonatomic,assign)  CGFloat  nndClientDataSpaceFrameSizeHeight;
+@property (nonatomic,strong)  UIColor  *nndClientDataSpaceBackGroundColor;
+@property (nonatomic,strong)  NSString *nndClientDataSpaceTitleString;
+
+
+// UIView *nndStatusSpace;
+ @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameOriginex;
+ @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameOriginey;
+ @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameSizeWidth;
+ @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameSizeHeight;
+ @property (nonatomic,strong)  UIColor  *nndStatusSpaceBackGroundColor;
+ @property (nonatomic,strong)  NSString *nndStatusSpaceTitleString;
+
+
+ // UIView *nndCheckInConfirmationNumberSpace;
+@property (nonatomic,assign)  CGFloat  nndCheckInConfirmationNumberSpaceFrameOriginex;
+@property (nonatomic,assign)  CGFloat  nndCheckInConfirmationNumberSpaceFrameOriginey;
+@property (nonatomic,assign)  CGFloat  nndCheckInConfirmationNumberSpaceFrameSizeWidth;
+@property (nonatomic,assign)  CGFloat  nndCheckInConfirmationNumberSpaceFrameSizeHeight;
+@property (nonatomic,strong)  UIColor  *nndCheckInConfirmationNumberSpaceBackGroundColor;
+@property (nonatomic,strong)  NSString *nndCheckInConfirmationNumberSpaceTitleString;
+
+ // UIView *nndCheckOutConfirmationNumberSpace;
+@property (nonatomic,assign)  CGFloat  nndCheckOutConfirmationNumberSpaceFrameOriginex;
+@property (nonatomic,assign)  CGFloat  nndCheckOutConfirmationNumberSpaceFrameOriginey;
+@property (nonatomic,assign)  CGFloat  nndCheckOutConfirmationNumberSpaceFrameSizeWidth;
+@property (nonatomic,assign)  CGFloat  nndCheckOutConfirmationNumberSpaceFrameSizeHeight;
+@property (nonatomic,strong)  UIColor  *nndCheckOutConfirmationNumberSpaceBackGroundColor;
+@property (nonatomic,strong)  NSString *nndCheckOutConfirmationNumberSpaceTitleString;
+
+// UIView *nndErroStringSpace;
+@property (nonatomic,assign)  CGFloat  nndErroStringSpaceFrameOriginex;
+@property (nonatomic,assign)  CGFloat  nndErroStringSpaceFrameOriginey;
+@property (nonatomic,assign)  CGFloat  nndErroStringSpaceFrameSizeWidth;
+@property (nonatomic,assign)  CGFloat  nndErroStringSpaceFrameSizeHeight;
+@property (nonatomic,strong)  UIColor  *nndErroStringSpaceBackGroundColor;
+@property (nonatomic,strong)  NSString *nndErroStringSpaceSpaceTitleString;
+  
+
+
 
 
 
@@ -136,6 +194,8 @@ typedef enum {
 
 
 - (instancetype)initDefaultModel;
+- (instancetype)initDefaultModelForNNDCheckInProject;
+
 @end
 
 #endif /* UiViewSizesDatamodel_h */
