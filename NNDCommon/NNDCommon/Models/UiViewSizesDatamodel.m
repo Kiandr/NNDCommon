@@ -236,21 +236,21 @@
              _Localize.String
              https://stackoverflow.com/questions/35056397/ios-applications-localization-strings-file-name-change
              */
-            _checkInButtonUIViewModelFrameOriginex = 0;
-            _checkInButtonUIViewModelFrameOriginey = windowView.frame.size.height-50; // findme
-            _checkInButtonUIViewModelFrameSizeHeight = 50; // findme
-            _checkInButtonUIViewModelFrameSizeWidth = 100;
-            _checkInButtonUIViewModelBackGroundColor = [UIColor greenColor];
-            _checkInButtonUIViewModelTitleString = NSLocalizedString(@"checkInButtonUIViewModelTitleString", nil);
+//            _checkInButtonUIViewModelFrameOriginex = 0;
+//            _checkInButtonUIViewModelFrameOriginey = _nndClientDataSpaceFrameSizeHeight; // findme
+//            _checkInButtonUIViewModelFrameSizeHeight = _nndCheckInlogoSpaceFrameSizeHeight; // findme
+//            _checkInButtonUIViewModelFrameSizeWidth = _mainPewviewScreenUIViewFrameSizeWidth;
+//            _checkInButtonUIViewModelBackGroundColor = [UIColor blueColor];
+//            _checkInButtonUIViewModelTitleString = NSLocalizedString(@"checkInButtonUIViewModelTitleString", nil);
+//
 
 
 
-
-            _homeButtonUIViewModelFrameOriginex = _checkInButtonUIViewModelFrameSizeWidth;
-            _homeButtonUIViewModelFrameOriginey = _checkInButtonUIViewModelFrameOriginey;
-            _homeButtonUIViewModelFrameSizeHeight = _checkInButtonUIViewModelFrameSizeHeight;
-            _homeButtonUIViewModelFrameSizeWidth = 100;
-            _homeButtonUIViewModelBackGroundColor = [UIColor blueColor];
+            _homeButtonUIViewModelFrameOriginex     = 0;
+            _homeButtonUIViewModelFrameOriginey     = _nndClientDataSpaceFrameSizeHeight;
+            _homeButtonUIViewModelFrameSizeHeight   = _nndCheckInlogoSpaceFrameSizeHeight;
+            _homeButtonUIViewModelFrameSizeWidth    = _mainPewviewScreenUIViewFrameSizeWidth;
+            _homeButtonUIViewModelBackGroundColor   = [UIColor blueColor];
             _homeButtonUIViewModelTitleString = NSLocalizedString(@"homeButtonUIViewModelTitleString", nil);
             
 
@@ -280,7 +280,7 @@
             _nndClientDataSpaceFrameOriginex    =   0;
             _nndClientDataSpaceFrameOriginey    =   _nndCheckInlogoSpaceFrameSizeHeight;
             _nndClientDataSpaceFrameSizeWidth   =   _mainPewviewScreenUIViewFrameSizeWidth;
-            _nndClientDataSpaceFrameSizeHeight  =   _nndCheckInlogoSpaceFrameSizeHeight;
+            _nndClientDataSpaceFrameSizeHeight  =   _nndCheckInlogoSpaceFrameSizeHeight*4;
             _nndClientDataSpaceBackGroundColor  =   [UIColor yellowColor];
             _nndClientDataSpaceTitleString      =   @"_nndClientDataSpaceTitleString";
 
@@ -319,7 +319,14 @@
             _nndErroStringSpaceSpaceTitleString = @"_nndErroStringSpaceSpaceTitleString";
             
             
-            
+            _checkInButtonUIViewModelFrameOriginex = 0;
+            _checkInButtonUIViewModelFrameOriginey = _nndClientDataSpaceFrameSizeHeight; // findme
+            _checkInButtonUIViewModelFrameSizeHeight = _nndCheckInlogoSpaceFrameSizeHeight; // findme
+            _checkInButtonUIViewModelFrameSizeWidth = _mainPewviewScreenUIViewFrameSizeWidth;
+            _checkInButtonUIViewModelBackGroundColor = [UIColor blueColor];
+            _checkInButtonUIViewModelTitleString = NSLocalizedString(@"checkInButtonUIViewModelTitleString", nil);
+
+
             
             
             
