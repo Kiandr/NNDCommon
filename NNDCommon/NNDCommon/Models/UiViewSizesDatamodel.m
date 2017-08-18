@@ -285,13 +285,7 @@
             _nndClientDataSpaceTitleString      =   @"_nndClientDataSpaceTitleString";
 
 
-            // UIView *nndStatusSpace;
-            _nndStatusSpaceFrameOriginex = 0;
-            _nndStatusSpaceFrameOriginey = _nndClientDataSpaceFrameOriginey;
-            _nndStatusSpaceFrameSizeWidth = _mainPewviewScreenUIViewFrameSizeWidth;
-            _nndStatusSpaceFrameSizeHeight ;
-            _nndStatusSpaceBackGroundColor = [UIColor clearColor];;
-            _nndStatusSpaceTitleString = @"_nndStatusSpaceTitleString";
+
 
 
             // UIView *nndCheckInConfirmationNumberSpace;
@@ -327,6 +321,26 @@
             _checkInButtonUIViewModelTitleString = NSLocalizedString(@"checkInButtonUIViewModelTitleString", nil);
 
 
+
+            // UIView *nndStatusSpace;
+            _nndStatusSpaceFrameOriginex   = 0;
+            _nndStatusSpaceFrameOriginey   = _nndClientDataSpaceFrameOriginey+_nndClientDataSpaceFrameSizeHeight;
+            _nndStatusSpaceFrameSizeWidth  = _mainPewviewScreenUIViewFrameSizeWidth;
+            _nndStatusSpaceFrameSizeHeight = 200;
+            _nndStatusSpaceBackGroundColor = [UIColor grayColor];
+            _nndStatusSpaceTitleString     = @"_nndStatusSpaceTitleString";
+
+            /*
+             
+             // UIView *nndStatusSpace;
+             @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameOriginex;
+             @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameOriginey;
+             @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameSizeWidth;
+             @property (nonatomic,assign)  CGFloat  nndStatusSpaceFrameSizeHeight;
+             @property (nonatomic,strong)  UIColor  *nndStatusSpaceBackGroundColor;
+             @property (nonatomic,strong)  NSString *nndStatusSpaceTitleString;
+
+             */
             
             
             
