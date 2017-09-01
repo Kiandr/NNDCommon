@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4302E81F58E193008F8024 /* NNDCurrentLocationDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4302E11F58E193008F8024 /* NNDCurrentLocationDataModel.h */; };
+		2E4302E91F58E193008F8024 /* NNDPatientDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4302E31F58E193008F8024 /* NNDPatientDataModel.h */; };
+		2E4302EA1F58E193008F8024 /* NNDVisitBookedDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4302E51F58E193008F8024 /* NNDVisitBookedDataModel.h */; };
+		2E4302EB1F58E193008F8024 /* NNDUserDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4302E71F58E193008F8024 /* NNDUserDataModel.h */; };
 		2E5A540F1F43A930000D8C8A /* NNDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5A54051F43A930000D8C8A /* NNDCommon.framework */; };
 		2E5A54141F43A930000D8C8A /* NNDCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A54131F43A930000D8C8A /* NNDCommonTests.m */; };
 		2E5A542C1F43AA7B000D8C8A /* NNDCommonBusinessRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5A54201F43AA7B000D8C8A /* NNDCommonBusinessRepository.h */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E4302E11F58E193008F8024 /* NNDCurrentLocationDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDCurrentLocationDataModel.h; sourceTree = "<group>"; };
+		2E4302E31F58E193008F8024 /* NNDPatientDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDPatientDataModel.h; sourceTree = "<group>"; };
+		2E4302E51F58E193008F8024 /* NNDVisitBookedDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDVisitBookedDataModel.h; sourceTree = "<group>"; };
+		2E4302E71F58E193008F8024 /* NNDUserDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDUserDataModel.h; sourceTree = "<group>"; };
 		2E5A54051F43A930000D8C8A /* NNDCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNDCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5A540E1F43A930000D8C8A /* NNDCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNDCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5A54131F43A930000D8C8A /* NNDCommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNDCommonTests.m; sourceTree = "<group>"; };
@@ -69,6 +77,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4302E01F58E193008F8024 /* NNDCurrentLocationDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E4302E11F58E193008F8024 /* NNDCurrentLocationDataModel.h */,
+			);
+			path = NNDCurrentLocationDataModel;
+			sourceTree = "<group>";
+		};
+		2E4302E21F58E193008F8024 /* NNDPatientDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E4302E31F58E193008F8024 /* NNDPatientDataModel.h */,
+			);
+			path = NNDPatientDataModel;
+			sourceTree = "<group>";
+		};
+		2E4302E41F58E193008F8024 /* NNDVisitBookedDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E4302E51F58E193008F8024 /* NNDVisitBookedDataModel.h */,
+			);
+			path = NNDVisitBookedDataModel;
+			sourceTree = "<group>";
+		};
+		2E4302E61F58E193008F8024 /* UserDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E4302E71F58E193008F8024 /* NNDUserDataModel.h */,
+			);
+			path = UserDataModel;
+			sourceTree = "<group>";
+		};
 		2E5A53FB1F43A930000D8C8A = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +169,10 @@
 		2E5A54261F43AA7B000D8C8A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2E4302E01F58E193008F8024 /* NNDCurrentLocationDataModel */,
+				2E4302E21F58E193008F8024 /* NNDPatientDataModel */,
+				2E4302E41F58E193008F8024 /* NNDVisitBookedDataModel */,
+				2E4302E61F58E193008F8024 /* UserDataModel */,
 				2E5A543A1F43AD86000D8C8A /* UiViewSizesDatamodel.h */,
 				2E5A543B1F43AD86000D8C8A /* UiViewSizesDatamodel.m */,
 				2E5A54271F43AA7B000D8C8A /* NNDCommonModel.h */,
@@ -157,7 +201,11 @@
 				2E5A542E1F43AA7B000D8C8A /* NNDCommonController.h in Headers */,
 				2E5A543C1F43AD86000D8C8A /* UiViewSizesDatamodel.h in Headers */,
 				2E5A54331F43AA7B000D8C8A /* NNDCommonService.h in Headers */,
+				2E4302E81F58E193008F8024 /* NNDCurrentLocationDataModel.h in Headers */,
+				2E4302EA1F58E193008F8024 /* NNDVisitBookedDataModel.h in Headers */,
+				2E4302E91F58E193008F8024 /* NNDPatientDataModel.h in Headers */,
 				2E5A542C1F43AA7B000D8C8A /* NNDCommonBusinessRepository.h in Headers */,
+				2E4302EB1F58E193008F8024 /* NNDUserDataModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +512,7 @@
 				2E5A541B1F43A930000D8C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E5A541C1F43A930000D8C8A /* Build configuration list for PBXNativeTarget "NNDCommonTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +521,7 @@
 				2E5A541E1F43A930000D8C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
