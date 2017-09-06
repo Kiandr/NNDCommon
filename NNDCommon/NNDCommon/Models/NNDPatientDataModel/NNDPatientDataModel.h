@@ -19,7 +19,7 @@
 
 @property (strong, nonatomic) NSString *patientFirstName;
 @property (strong, nonatomic) NSString *patientLastName;
-@property (strong, nonatomic) NNDVisitBookedDataModel *patientNextVisitBooked;
+//@property ( assing, nonatomic) NNDVisitBookedDataModel *patientNextVisitBooked;
 
 @end
 #endif /* NNDUserDataModel_h */
