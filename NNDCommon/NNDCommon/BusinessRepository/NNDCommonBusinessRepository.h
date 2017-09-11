@@ -17,3 +17,6 @@ FOUNDATION_EXPORT const unsigned char NNDCommonVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <NNDCommon/PublicHeader.h>
 
 
+@interface NNDDataBaseController : NSObject
+
+@end
